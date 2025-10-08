@@ -1,0 +1,37 @@
+Énoncé de l’exercice : API de gestion de tâches avec Node.js et SQL
+Contexte
+Tu dois créer une petite API backend avec Node.js qui permet de gérer les eleves
+
+Cette fois-ci, les données ne seront pas stockées en mémoire, mais dans une base de données
+SQL (MariaDB ou MySQL au choix).
+Objectifs
+tu doit creer une base de donnee classe avec une table eleve .
+la table doit contenir :
+-un nom qui est la cle primaire
+-un prenom (char 30)
+- date de naissance
+- note 1 et note 2
+
+2. Mettre en place un serveur Node.js avec Express qui expose les routes suivantes : OK
+- GET /eleve → récupérer toutes les eleves.
+- POST /eleve → ajouter un nouvelle eleve (donnée envoyée dans le body JSON).
+- PUT /eleve/:id → mettre à jour les donnee de l'eleve (par exemple changer son titre ou son état done).
+- DELETE /eleve/:id → supprimer un eleve  par son identifiant (nom).
+3. Les réponses de l’API doivent être envoyées en JSON. OK
+Contraintes techniques
+- Utiliser Express.js pour gérer les routes.
+- Utiliser le package mysql2 (ou équivalent) pour se connecter à la base de données.
+- Écrire les requêtes SQL nécessaires pour insérer, sélectionner, modifier et supprimer les
+données.
+■ Résultat attendu : une API simple mais fonctionnelle, qui permet de manipuler une liste de tâches
+stockées en SQL
+
+4. le fronted doit etre dans le dossier page  doit est fonctionnel
+ avec une barre de recherche pour rechercher un eleve 
+ un bouton pour modifier ,  supprimer et ajouter 
+
+adapte au code present sans creer de fichier et sans executer de commande , developppe le frontend dans le fichier App.vue et le script si necessaire dans main.js pour les buttons
+
+
+
+

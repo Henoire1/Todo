@@ -1,0 +1,12 @@
+@import '@/style.css';
+
+/* Personnalisation des dialogues */
+.dialog-overlay {
+  @apply bg-black/50;
+}
+
+.dialog-content {
+  @apply bg-white dark:bg-gray-900;
+}
+
+

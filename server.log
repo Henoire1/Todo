@@ -1,0 +1,202 @@
+[dotenv@17.2.2] injecting env (6) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+Échec de connexion MySQL (essai 1/8) ER_ACCESS_DENIED_ERROR
+Échec de connexion MySQL (essai 2/8) ER_ACCESS_DENIED_ERROR
+Échec de connexion MySQL (essai 3/8) ENOENT
+Échec de connexion MySQL (essai 4/8) ENOENT
+Échec de connexion MySQL (essai 5/8) ENOENT
+Échec de connexion MySQL (essai 6/8) ENOENT
+Échec de connexion MySQL (essai 7/8) ENOENT
+Connecté à MySQL ✅
+Pas de droit CREATE DATABASE, tentative de connexion directe à la base existante…
+Base inexistante, bascule en mode fichier.
+🚀 Serveur démarré sur http://localhost:4000
+Mode stockage fichier activé (data.json).
+Erreur non gérée: SyntaxError: Unexpected non-whitespace character after JSON at position 127 (line 9 column 4)
+    at JSON.parse (<anonymous>)
+    at parse (/Users/djoman/Desktop/Todo/node_modules/body-parser/lib/types/json.js:77:19)
+    at /Users/djoman/Desktop/Todo/node_modules/body-parser/lib/read.js:123:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)
+    at invokeCallback (/Users/djoman/Desktop/Todo/node_modules/raw-body/index.js:238:16)
+    at done (/Users/djoman/Desktop/Todo/node_modules/raw-body/index.js:227:7)
+    at IncomingMessage.onEnd (/Users/djoman/Desktop/Todo/node_modules/raw-body/index.js:287:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  expose: true,
+  statusCode: 400,
+  status: 400,
+  body: ' \n' +
+    '  \n' +
+    '  {\n' +
+    '    "nom": "Koné",\n' +
+    '    "prenom": "Abdoulaye",\n' +
+    '    "date_naissance": "2003-05-12",\n' +
+    '    "note1": 14,\n' +
+    '    "note2": 16\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "nom": "Coulibaly",\n' +
+    '    "prenom": "Aminata",\n' +
+    '    "date_naissance": "2004-09-21",\n' +
+    '    "note1": 12,\n' +
+    '    "note2": 15\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "nom": "Traoré",\n' +
+    '    "prenom": "Moussa",\n' +
+    '    "date_naissance": "2002-11-03",\n' +
+    '    "note1": 9,\n' +
+    '    "note2": 13\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "nom": "Ouattara",\n' +
+    '    "prenom": "Salimata",\n' +
+    '    "date_naissance": "2005-07-18",\n' +
+    '    "note1": 17,\n' +
+    '    "note2": 14\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "nom": "Diabaté",\n' +
+    '    "prenom": "Ismaël",\n' +
+    '    "date_naissance": "2003-03-25",\n' +
+    '    "note1": 10,\n' +
+    '    "note2": 12\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "nom": "Fofana",\n' +
+    '    "prenom": "Mariame",\n' +
+    '    "date_naissance": "2004-01-14",\n' +
+    '    "note1": 18,\n' +
+    '    "note2": 16\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "nom": "Cissé",\n' +
+    '    "prenom": "Adama",\n' +
+    '    "date_naissance": "2002-08-09",\n' +
+    '    "note1": 11,\n' +
+    '    "note2": 15\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "nom": "Soro",\n' +
+    '    "prenom": "Kadidia",\n' +
+    '    "date_naissance": "2005-06-22",\n' +
+    '    "note1": 13,\n' +
+    '    "note2": 14\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "nom": "Sangaré",\n' +
+    '    "prenom": "Boubacar",\n' +
+    '    "date_naissance": "2003-10-05",\n' +
+    '    "note1": 16,\n' +
+    '    "note2": 18\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "nom": "Keita",\n' +
+    '    "prenom": "Awa",\n' +
+    '    "date_naissance": "2004-04-30",\n' +
+    '    "note1": 15,\n' +
+    '    "note2": 13\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "nom": "Sylla",\n' +
+    '    "prenom": "Daouda",\n' +
+    '    "date_naissance": "2002-12-11",\n' +
+    '    "note1": 9,\n' +
+    '    "note2": 10\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "nom": "Diallo",\n' +
+    '    "prenom": "Fatoumata",\n' +
+    '    "date_naissance": "2003-07-07",\n' +
+    '    "note1": 17,\n' +
+    '    "note2": 19\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "nom": "Camara",\n' +
+    '    "prenom": "Oumar",\n' +
+    '    "date_naissance": "2005-02-17",\n' +
+    '    "note1": 13,\n' +
+    '    "note2": 12\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "nom": "Barry",\n' +
+    '    "prenom": "Mariam",\n' +
+    '    "date_naissance": "2004-08-28",\n' +
+    '    "note1": 14,\n' +
+    '    "note2": 15\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "nom": "Bangoura",\n' +
+    '    "prenom": "Alpha",\n' +
+    '    "date_naissance": "2003-01-19",\n' +
+    '    "note1": 12,\n' +
+    '    "note2": 11\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "nom": "Yeo",\n' +
+    '    "prenom": "Assitan",\n' +
+    '    "date_naissance": "2002-09-15",\n' +
+    '    "note1": 15,\n' +
+    '    "note2": 17\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "nom": "Koulibaly",\n' +
+    '    "prenom": "Souleymane",\n' +
+    '    "date_naissance": "2004-05-23",\n' +
+    '    "note1": 16,\n' +
+    '    "note2": 14\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "nom": "Zongo",\n' +
+    '    "prenom": "Hadja",\n' +
+    '    "date_naissance": "2005-11-29",\n' +
+    '    "note1": 10,\n' +
+    '    "note2": 13\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "nom": "Bamba",\n' +
+    '    "prenom": "Sekou",\n' +
+    '    "date_naissance": "2003-06-06",\n' +
+    '    "note1": 18,\n' +
+    '    "note2": 17\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "nom": "Kouyaté",\n' +
+    '    "prenom": "Hawa",\n' +
+    '    "date_naissance": "2004-10-12",\n' +
+    '    "note1": 11,\n' +
+    '    "note2": 12\n' +
+    '  }\n' +
+    '\n' +
+    '\n' +
+    '\n',
+  type: 'entity.parse.failed'
+}
+Erreur non gérée: SyntaxError: Unexpected non-whitespace character after JSON at position 120 (line 8 column 4)
+    at JSON.parse (<anonymous>)
+    at parse (/Users/djoman/Desktop/Todo/node_modules/body-parser/lib/types/json.js:77:19)
+    at /Users/djoman/Desktop/Todo/node_modules/body-parser/lib/read.js:123:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)
+    at invokeCallback (/Users/djoman/Desktop/Todo/node_modules/raw-body/index.js:238:16)
+    at done (/Users/djoman/Desktop/Todo/node_modules/raw-body/index.js:227:7)
+    at IncomingMessage.onEnd (/Users/djoman/Desktop/Todo/node_modules/raw-body/index.js:287:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  expose: true,
+  statusCode: 400,
+  status: 400,
+  body: '\n' +
+    '  {\n' +
+    '    "nom": "Bamba",\n' +
+    '    "prenom": "Sekou",\n' +
+    '    "date_naissance": "2003-06-06",\n' +
+    '    "note1": 18,\n' +
+    '    "note2": 17\n' +
+    '  },\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    ' ',
+  type: 'entity.parse.failed'
+}

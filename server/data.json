@@ -1,0 +1,58 @@
+[
+  {
+    "nom": "Kouyaté",
+    "prenom": "Hawa",
+    "date_naissance": "2004-10-12",
+    "note1": 20,
+    "note2": 12
+  },
+  {
+    "nom": "Zongo",
+    "prenom": "Hadja",
+    "date_naissance": "2005-11-29",
+    "note1": 10,
+    "note2": 13
+  },
+  {
+    "nom": "Koulibaly",
+    "prenom": "Souleymane",
+    "date_naissance": "2004-05-23",
+    "note1": 16,
+    "note2": 14
+  },
+  {
+    "nom": "Yeo",
+    "prenom": "Assitan",
+    "date_naissance": "2002-09-15",
+    "note1": 19,
+    "note2": 20
+  },
+  {
+    "nom": "Camara",
+    "prenom": "Oumar",
+    "date_naissance": "2005-02-17",
+    "note1": 13,
+    "note2": 12
+  },
+  {
+    "nom": "Sylla",
+    "prenom": "Daouda",
+    "date_naissance": "2002-12-11",
+    "note1": 9,
+    "note2": 10
+  },
+  {
+    "nom": "mirielle",
+    "prenom": "Diane",
+    "date_naissance": "2002-13-20",
+    "note1": 19,
+    "note2": 20
+  },
+  {
+    "nom": "Koné",
+    "prenom": "marie",
+    "date_naissance": "1998-07-24",
+    "note1": 12,
+    "note2": 13
+  }
+]
