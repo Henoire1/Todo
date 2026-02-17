@@ -3,6 +3,7 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const mysql = require("mysql2");
 const app = express();
+const { sequelize } = require('./models');
 const cors = require('cors');
 const fs = require('fs');
 const path = require('path');
